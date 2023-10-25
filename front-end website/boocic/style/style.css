@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img{
+    max-width: 100%;
+}
+.down-div div a{
+    color: #ee3c8f;
+    
+    
+
+  }
+  hr{
+    color: #ee3c8f;
+    border:1px solid  #ff1e87;
+  }
+.btn-custom{
+    padding: 15px 40px;
+    color: white;
+    background: #000;
+    border: 1px groove wheat;
+    border-radius: 7px;
+    font-size: 20px;
+text-decoration: none;
+}
+.btn-custom:hover{
+    padding: 15px 40px;
+    color: rgb(255, 255, 255);
+    background: rgb(255, 0, 0);
+    border: 1px groove wheat;
+    border-radius: 20px;
+    font-size: 20px;
+    transition: .5s;
+text-decoration: none;
+}
+.img-div{
+    position: relative;
+ 
+    
+ 
+}
+.Services-section{
+    background: rgb(238, 246, 252);
+    margin-bottom: ;
+}
+.text-div{
+    position: absolute;
+    top: 45%;
+    left: 35%;
+  z-index: 1;
+}
+.img-div:hover .text-div{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(223, 79, 79, 0.7);
+    padding: 23% 35% ;
+    color: rgb(0, 0, 0);
+    border: 1px solid wheat;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+    border-radius: 17px;
+    transition: .3s;
+
+  
+}
+.text-div a{
+    color: #ee3c8f;
+    text-align: center;
+    font-weight: bold;
+    padding: 7px 15px;
+    border: 1px groove wheat;
+    border-radius: 10px;
+    background: rgba(241, 240, 137, 0.5);
+
+}
+.img-div:hover a{
+    color: #ee3c8f;
+    text-align: center;
+    font-weight: bold;
+    padding: 7px 15px;
+    border: 1px groove wheat;
+  
+    background: rgb(255, 255, 255);
+    border-radius: 10px;
+    transition: .5s;
+    z-index: 2;
+}
+
+.blog-section .img-blog{
+    position: relative;  
+ 
+}
+.blog-section .text-blog{
+    position: absolute;
+    top: 2px;
+    left: 0;
+  z-index: 1;
+}
+.blog-section .text-blog a{
+    padding: 7px 15px;
+    text-decoration: none;
+    color: white;
+    background-color: #ee3c8f;
+    font-size: 12px;
+}
+.blog-section .history-div span,p{
+    margin-top: 7px;
+    font-size: 12px;
+}
+.blog-section .blog-text-div p{
+    text-align: justify;
+    font-size: 14px;
+}
+
+.Contact-us-section hr{
+    color: #ffffff;
+    border:1px solid  #ffffff;
+}

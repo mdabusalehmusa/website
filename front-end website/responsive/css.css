@@ -1,0 +1,231 @@
+/* difolt*/
+*{
+    padding: 0;
+    margin: 0;
+}
+.ciearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.img{max-width: 100%;}
+.cating{
+    width: 800px;
+    margin: auto;
+}
+.text-center{
+    text-align: center;
+}
+.text-left{
+    text-align: left;
+}
+.text-right{
+    text-align: right;
+}
+/*  header  */
+.header{background-color:#3498db;}
+.header-logo{
+    float: left;
+    width: 30%;
+  
+    
+}
+.header-logo img{
+   width: 80%;
+    height: auto;
+    margin-left: 10;
+}
+.header-right{
+    float: right;
+    width: 70%;
+    text-align: right;
+}
+
+
+
+.header-right ul{
+
+}
+.header-right ul li{
+    display: inline-block;
+   
+    margin-left: -4px;
+}
+.header-right ul li a{
+    color: white;
+    text-decoration: none;
+    text-transform: capitalize;
+   
+    line-height: 70px;
+    padding: 0px 20px;
+    display: block;
+}
+.header-right ul li a:hover{
+    background-color: #2674a8;
+    transition: .5s;
+}
+
+/*  bannar*/
+.bannar{
+   background: url(./pic/bannar.jpg) no-repeat center;
+  
+   background-attachment: fixed;
+
+
+}
+.bannarme{
+    text-align: center;
+    padding: 180px 0px;
+}
+#bannar{
+    background-color: rgba(21, 109, 109, 50%);
+    color: white;
+    padding: 10px 10px;
+    width: 350px;
+    margin-bottom: 20px;
+    margin-left: 50px;
+}
+#bannar1{
+    background-color: rgba(49, 150, 209, 0.3);
+    color:black;
+    padding: 10px 30px;
+    display: inline-block;
+   
+    
+}
+/*   about   */
+.about h1{
+    font-size: 30px;
+    margin: 15px 0px;
+
+}
+.about  p{
+    max-width: 70%;
+    margin: auto;
+    font-size: 17px;
+
+}
+/*  service section  */
+
+.service{
+    margin-top: 50px;
+}
+.service-item{
+    float: left;
+    width: 31.3%;
+    text-align: center;
+    border: 1px solid rgb(43, 38, 38,30%);
+    box-sizing: border-box;
+    margin-top: 1%;
+    margin-left: 1%;
+    border-radius: 10px;
+    c
+
+
+}
+.service-item span{
+    display: block;
+    height: 40px;
+    width: 40px;
+    backgraound-color:sky;
+    color:white;
+    margin: auto;
+    font-size: 30px;
+    line-height: 40px;
+    border-radius: 20px 0px 20px 0px;
+    padding: 10px 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color:red;
+
+}
+.service-item h1{
+    font-size: 30px;
+ 
+    
+}
+.service-item p{
+    padding: 5px;
+    font-size: 19px;
+}
+/* blog container  */
+.blog-left img{
+    width: 50%;
+    height: auto;
+    float: left;
+    margin-right: 10px;
+}
+.blog-container{
+    margin: 50px 0px;
+}
+.blog-left{
+    float: left;
+    width: 70%;
+
+}
+.blog-left p{
+    margin-bottom: 30px;
+}
+.blog-right{
+    float: right;
+    width: 25%;
+}
+.blog-right
+#h3{
+    font-size: 30px;
+    border-bottom: 1px solid black;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+}
+.blog-right ul{
+    list-style: none;
+}
+.blog-right ul li{
+    padding: 10px;
+    font-size: 20px;
+    text-transform: capitalize;
+    border: 2px solid rgb(71, 29, 29,20%);
+    margin-bottom: 7px;
+    border-radius: 7px;
+   
+}
+/*   futter   */
+.futter{
+    background-color: black;
+    margin-bottom: 20px;
+  
+}
+.futter-left{
+    float: left;
+    width: 40%;
+    text-align: right;
+    font-size: 20px;
+    padding: 10px 0px;
+    background-color: black;
+    color: white;
+
+}
+.futter-right{
+    float: right;
+    width: 60%;
+    background-color: black;
+    color: white;
+    text-align: center;
+   padding: 8px 0px;
+}
+.sosal-manu{}
+.sosal-manu ul{
+    display: inline-block;
+}
+.sosal-manu ul li{
+    display: inline-block;
+}
+.sosal-manu ul li a{
+   color: white;
+   font-size: 25px;
+   margin-left: 10px;
+
+}
+.sosal-manu ul li a:hover{
+  
+}

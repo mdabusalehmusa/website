@@ -1,0 +1,156 @@
+/* Beatles Project*/
+/* Google Font* */
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap');
+/* Common CSS */
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+img {
+    max-width: 100%;
+}
+
+p,
+ul,
+a,
+li,
+span {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'PT Sans', sans-serif;
+    text-decoration: none;
+    list-style: none;
+
+}
+
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'PT Sans', sans-serif;
+
+}
+
+:root {
+    --btn_color: #fcdb00;
+    --bg_color: #fbdb00;
+    --head-text: #010101;
+    --text: #dfdfdf;
+}
+/* Nav bar Start */
+.navbar-section{
+    background:var(--bg_color);
+}
+.nav-menu{
+    display: flex;
+    justify-content: baseline;
+    background:var(--bg_color);
+}
+.menu{
+    padding-top: 8px;
+}
+.menu .mother_menu{
+    display: flex;
+    
+}
+.menu ul li .dropbtn{
+    position: relative;
+}
+.menu li a{
+    padding: 10px 20px;
+    font-weight: bold;
+    text-decoration: none;
+    color: var(--head-text);
+    transition: .3s;
+}
+.dropdown li{
+    display: block;
+}
+.menu ul li .dropdown{
+    display: none;
+    position: absolute;
+    
+  background: var(--bg_color);
+}
+.menu ul li .dropdown li a{
+  padding: 10px 20px;
+  margin-top: 10px;
+}
+
+.menu ul li a:hover{
+    border-bottom: 1px double var(--head-text);
+    color: rgb(0, 110, 110);
+
+    transition: .5s;
+}
+.colaps{
+    color: #010101;
+    padding: 7px 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    box-shadow: 2px 2px 3px white;
+    display: none;
+}
+/* Nav bar end*/
+
+
+
+@media (max-width: 800px) {
+   .menu{
+    display: none;
+   
+   }
+   .menu .mother_menu{
+    display: flex;
+    flex-direction: column;
+    
+}
+   .colaps{
+    text-align: end;
+    display: block;
+    cursor: pointer;
+ 
+   }
+  }
+
+
+  .slider {
+    position: relative;
+    width: 500px;
+    height: 300px;
+    overflow: hidden;
+  }
+  
+  .slide {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+  }
+  
+  .active {
+    opacity: 1;
+  }
+ 
+  /* Bannar Section Start*/
+.bannarSection{
+    background:var(--bg_color);
+}  
+
+ 
+.bannarSection .bannar_img{
+height: 500px;
+margin: 35px 10px;
+border-radius: 20px;
+overflow: hidden;
+}  
+  /* Bannar Section end*/

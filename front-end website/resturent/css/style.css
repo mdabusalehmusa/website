@@ -1,0 +1,355 @@
+/* Beatles Project*/
+/* Google Font* */
+@import url('https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gentium+Book+Basic:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+/* Common CSS */
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+img {
+    max-width: 100%;
+}
+
+p,
+a,
+span {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Lato', sans-serif;
+    text-decoration: none;
+    list-style: none;
+
+}
+
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Yeseva One', cursive;
+}
+ul,
+li,
+ul li a{
+    font-family: 'Gentium Book Basic', serif; 
+}
+:root {
+    --btn_color: #0771b9;
+    --bg_color: #0771b9;
+    --icon_bg: #5bc5f3;
+    --head-text: #cc9900;
+    --service_bg: #f1f1f1;
+}
+
+.head-div h2 {
+    line-height: 0rem;
+    color: var(--head-text);
+}
+
+/*weccome-section start */
+.weccome-section {
+    padding: 12px 0px;
+    background: var(--bg_color);
+}
+
+.weccome-section .icon a {
+    font-size: 14px;
+    font-weight: 700;
+    color: white;
+}
+
+.weccome-section .icon a:hover {
+    font-size: 14px;
+    font-weight: 800;
+    color: var(--head-text);
+}
+
+/*weccome-section end */
+/* Back To top  Start*/
+
+.back_to_top{
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right
+    : 20px;
+    z-index: 1;
+}
+.back_to_top i{
+    font-size: 20px;
+    color:var(--head-text);
+}
+/* Back To top */
+/*Navbar-section end */
+ .nav_bg{
+    background-color:var(--head-text);
+ }
+.nav_bg_chang{
+    background: var(--head-text);
+    position: sticky;
+    top: 0;
+    transition: 1s;
+    z-index: 1;
+}
+.nav_bg_chang .nav-link.active{
+    color: white;
+    font-weight: bolod;
+}
+.nav_bg_chang .nav-link{
+    color: white;
+}
+
+.navbar-section ul li{
+    list-style: none;
+}
+.navbar-section ul li a{
+    color: white;
+    font-size: 15px;
+}
+.navbar-section ul li .active {
+    color: white;
+}
+
+.navbar-section ul li a:hover {
+    color:white;
+
+
+}
+
+/*Navbar-section end */
+
+/*Hero-section start */
+.hero-section {
+    padding: 80px 0px;
+    background: url(https://i.postimg.cc/bw7sYQgf/bannar.jpg) no-repeat center center;
+margin-top: -170px;
+    background-size: cover;
+    background-attachment: scroll;
+}
+.bannar_h1{
+    margin-top: 200px;
+    font-size: 3rem;
+}
+
+
+.hero-section .btn-div a:hover {
+
+    background-color: transparent;
+    border: 1px solid white !important;
+}
+
+/*Hero-section end */
+
+
+/*about-section start */
+.about-section {
+    background: url(https://i.postimg.cc/Z5FSGpWq/background.jpg) no-repeat center center;
+    background-size: cover;
+    background-attachment: scroll;
+}
+.about-section h2{
+    color: var(--head-text);
+}
+.about-section {
+    padding: 80px 0px;
+}
+
+/*about-section end */
+
+
+/*ingredients_section start */
+.ingredients_section {
+    background: url(https://i.postimg.cc/7hF9DKBJ/ingradent-BG.jpg) no-repeat center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.ingredients_section h2{
+    color:white;
+}
+.ingredients_section p{
+    color:white;
+    line-height: 1.5rem;
+}
+ 
+
+/*ingredients-section end */
+
+
+/*menu-section start */
+.menu_section {
+    background: url(https://i.postimg.cc/Z5FSGpWq/background.jpg) no-repeat center center;
+    background-size: cover;
+    background-attachment: scroll;
+   
+}
+.menu_section h2{
+    color: var(--head-text);
+}
+.menu_section img{
+margin: 0 auto;
+}
+.menu_section .text_div{
+    display: flex;
+    justify-content: space-between;
+    width: 65%;
+    margin: 0 auto;
+}
+.menu_section .text_div a{
+    color: var(--head-text);
+    font-size: 20px;
+    font-weight: bold;
+
+}
+.menu_section hr{
+    color: var(--head-text);
+    width: 65%;
+    margin: 0 auto;
+    
+}
+.menu_section p{
+    width: 65%;
+    margin: 0 auto;
+    font-size: 14px;
+    
+}
+
+/* menu_section special-menu ........*/
+.special-menu .text_div{
+    width: 95%;
+}
+.special-menu hr{
+    width: 95%;
+}
+.special-menu p{
+    width: 95%;
+}
+.special-menu{
+    position: relative;
+    border: 1px solid var(--head-text);
+    width: 70%;
+    margin: 0 auto;
+}
+.special_text{
+    position: absolute;
+    top: -17px;
+    right: -1px;
+    background-color: var(--head-text);
+    color: white;
+   
+
+}
+.special_text p{
+    font-size: 10px;
+    padding: 1px 12px;
+}
+
+
+/*menu-section end */
+
+
+/*reviews_section start */
+.reviews_section{
+    background: url(https://i.postimg.cc/GtzBfWLX/reviews-BG.jpg) no-repeat center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.reviews_section h2{
+    color:white;
+}
+.reviews_section h6{
+    color:white;
+    line-height: 1.5rem;
+    width: 90%;
+    margin: 0  auto;
+    line-height: 2rem;
+}
+.reviews_section p{
+    color:white;
+    line-height: 1.5rem;
+    width: 90%;
+    margin: 0  auto;
+}
+.reviews_section .img_div{
+    width: 100px;
+    margin-right:-25px ;
+    margin-top: -10px;
+}
+
+
+/*ingredients-section end */
+
+
+/*form-section start */
+.form-section {
+    background: url(https://i.postimg.cc/Z5FSGpWq/background.jpg) no-repeat center center;
+    background-size: cover;
+    background-attachment: scroll;
+}
+.form-section p{
+    font-size: 14px;
+}
+.form-section h2{
+    color: var(--head-text);
+}
+.form-section .button_div{
+  
+    margin: 0 auto;
+    text-align: center;
+}
+.form-section .button_div button{
+    background-color: var(--head-text);
+    padding: 7px 60px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 10px;
+    color: white;
+}
+.form-section {
+    padding: 80px 0px;
+}
+.form-section .label{
+    color:var(--head-text);
+    font-size: 15px;
+    font-weight: bold;
+}
+.form-section select{
+    font-size: 15px;
+    font-style: italic;
+}
+.form-section form input::placeholder{
+    font-style: italic;
+}
+
+.form-section form input:hover{
+   border: var(--head-text);
+}
+
+/*form-section end */
+
+
+
+
+
+
+/*Footer-section start */
+
+.footer-section .icon_div i{
+    font-size: 18px;
+    padding: 2px 5px;
+    color: white;
+    margin: 0 2px;
+
+}
+
+
+/*Footer-section end */
+
+

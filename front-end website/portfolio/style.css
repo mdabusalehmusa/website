@@ -1,0 +1,60 @@
+
+
+
+img{
+    
+}
+.header{
+    background: url(./pic//bg2.jpg) center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.headerr{
+    background: url(./pic//bg.jpg) center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.header1{
+    background: url(./pic//bg.jpg) center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.headerr1{
+    background: url(./pic//bg1.jpg) center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.header h4{
+    font-weight: 600;
+}
+.header h1{
+    font-weight: 800;
+}
+
+.work .col-lg-4:hover{
+    transform: scale(1.1);
+    transition: .3s;
+    border:1px solid red;
+}
+
+
+.contact .m-div:hover i{
+    transform: scale(1.1);
+    transition: .4s;
+    color: rgb(121, 3, 175);
+}
+.contact .m-div:hover h3{
+    transform: scale(1.05);
+    transition: .4s;
+    color: rgb(63, 3, 175);
+}
+
+footer a:hover{
+    transform: scale(1.1);
+    transition: .4s;
+    color: rgb(28, 236, 0);
+}
